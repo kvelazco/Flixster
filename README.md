@@ -23,11 +23,10 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<img src="https://github.com/kvelazco/Flixster/blob/master/walkthrough1.gif" width=250><br>
-<img src="https://github.com/kvelazco/Flixster/blob/master/walkthrough2.gif" width=500><br>
+<img src="https://github.com/kvelazco/Flixster/blob/master/walkthrough.gif" width=500><br>
 
 ### Notes
-The glide placeholder only shows once some data has been retrieved, not before. In my case it showed for the pictures at the end of the list. 
+Glide placeholder will only show up when some data has been retrieved.
 
 ### Open-source libraries used
 
