@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.RecyclerView;
 //import com.codepath.asynchttpclient.AsyncHttpClient;
 
 import android.annotation.SuppressLint;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
 
 import com.codepath.asynchttpclient.AsyncHttpClient;
@@ -35,6 +37,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"#7A147A\">" + "Flixster * discover new movies" + "</font>"));
+
         RecyclerView rvMovies = findViewById(R.id.rvMovies);
         movies = new ArrayList<>();
 
